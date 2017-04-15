@@ -2,6 +2,6 @@
 
 exports.init = function () {
     setTimeout(function () {
-        document.querySelector('.greating_picture').classList.add('m--show');
+        console.log('test');
     }, 1000);
 }

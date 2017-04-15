@@ -1,5 +1,10 @@
 'use strict';
 
-var viking = require('./modules/viking');
+//foundation
+window.$ = window.jQuery = require('jquery');
 
-viking.init();
+//requires
+var test = require('./modules/test');
+
+//init
+test.init();
